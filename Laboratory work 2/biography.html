@@ -14,18 +14,32 @@
   h3{
     text-align: center;
   }
-  .a, .b, .c, .d, .e, .f , .g, a:visited{
-    color: navy;
-  } 
-  .a, .b, .c, .d, .e, .f , .g, a:hover{
-    background-color: #4CAF50; 
-    color: magenta;
+  .a1, .b, .c, .d, .e, .f a:link{
+    background-color: navy;
+    color: white;
+    appearance: button;
   }
-  .a, .b, .c, .d, .e, .f , .g, a:active{
-    color: #a0a749;
+  a:link{
+    background-color: navy;
+    color: white;
+    appearance: button;
+  }
+  a:visited{
+    background-color: navy;
+    color: white;
+    appearance: button;
+  }
+  a:hover {
+  background-color: magenta;
+  color: black;
+  }
+  a:active{
+    background-color: yellow;
+    color: black;
+    appearance: button;
   }
   .up{
-    font-weight:bolder;
+    font-weight:700;
   }
   h2{
     font-size: 120%;
@@ -44,7 +58,7 @@
   <h3 id="#top"> Зміст </h3>
   <div>
     <ul>
-    <li><a class="a" href="#top">Зміст</a></li>
+    <li><a class="a1" href="#top">Зміст</a></li>
     <li><a class="b" href="#Base">Базова інформація</a></li>
     <li><a class="c" href="#Chilldhood">Дитинство</a></li>
     <li><a class="d" href="#School">Шкільні роки</a></li>
