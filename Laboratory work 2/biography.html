@@ -14,26 +14,21 @@
   h3{
     text-align: center;
   }
-  .a1, .b, .c, .d, .e, .f a:link{
+  .all a:link{
     background-color: navy;
     color: white;
     appearance: button;
   }
-  a:link{
+  .all a:visited{
     background-color: navy;
     color: white;
     appearance: button;
   }
-  a:visited{
-    background-color: navy;
-    color: white;
-    appearance: button;
-  }
-  a:hover {
+  .all a:hover {
   background-color: magenta;
   color: black;
   }
-  a:active{
+  .all a:active{
     background-color: yellow;
     color: black;
     appearance: button;
@@ -47,6 +42,10 @@
   p{
     font-size: 120%;
   }
+  .top2{ 
+    font-size:smaller;
+  vertical-align:super;
+  }
 
 </style>
 </head>
@@ -57,7 +56,7 @@
 	<div><a class="back" href="index.html"> На головну </a> </div>
   <h3 id="#top"> Зміст </h3>
   <div>
-    <ul>
+    <ul class='all'>
     <li><a class="a1" href="#top">Зміст</a></li>
     <li><a class="b" href="#Base">Базова інформація</a></li>
     <li><a class="c" href="#Chilldhood">Дитинство</a></li>
@@ -72,24 +71,25 @@
   </article>
   <article id="#Chilldhood">
   <h2> Дитинство</h2><p>Дитинство пролетіло жваво і весело.</p> <p>Як і всі ходив у садочок і в школу мистецтв</p> <p> Дитинство досі пам'ятаю у деталях.</p> <p> Багато часу проводив на дворі з друзями.</p> <p> Не знаю що й додати.</p>
-  <a href="#top"> До змісту</a>
+  <a href="#top" class="up"> До змісту</a>
   </article>
   <a></a>
   <article id="#School">
   <h2> Шкільні роки </h2><p>Ходив у Чортківську гімназію імені Маркіяна Шашкевича.</p> <p>11 років вивчав англійську мову.</p><p>Багато спогадів пов'язані саме зі школою</p>  <p> Оцінки отримував хороші хоча й не прикладав повних зусиль до навчання у школі.</p> <p> Школа проводила багато цікавих заходів та екскурсій по Україні.</p>
-  <a href="#top"> До змісту</a>  
+  <a href="#top" class="up"> До змісту</a>  
   </article>
   <a></a>
   <article id="#Afterschool">
 	<h2> Поза школою </h2><p>Відвідував школу програмування у 6 і 7 класі.</p> <p>Саме це мене наштовхнуло піти на цю спеціальність.</p> <p> Ніколи не виникало бажання записуватись як усі інші в різні секції.</p> <p> Як і вище згадано, проводив багато часу на дворі, граючи волейбол з друзями,.</p>
-  <a href="#top"> До змісту</a>
+  <a href="#top" class="up"> До змісту</a>
   </article>
   <a></a>
   <article id="#University">
 	<h2> Університет </h2> <p>Став студентом першокурсником відносно недавно у ПНУ імені Василя Стефаника.</p> <p>За короткий термін навчання тут можу сказати, що досить таки цікаво і інформативно &#128512;</p> <p>Будучи першокурсником ще не усвідомив всі привілегії навчання ПОКИ. </p><p>Надіюсь з часом прийде.</p> <p> Вже встиг познайомитися з одногрупниками. </p> <p> That's all, enough...</p>
-	<a href="#top"> До змісту</a>
+	<a href="#top" class="up"> До змісту</a>
   </article>
-  <a></a>
+  <hr>
+  <a href="#top" class="top2">Уверх</a>
 </body>
 
 </html>
