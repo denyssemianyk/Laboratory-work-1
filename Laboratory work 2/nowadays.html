@@ -13,18 +13,17 @@
         .h3{
                 text-align: center;
         }
-        li:nth-child(odd){
+        .bg li:nth-child(odd){
                 background-color: gray;
         }
         .decert{
                 text-align: center;
         }
-        .tyi:hover{
-                background-color: azure;
-                color: darkcyan;
+        .tyi{
+               cursor: pointer;
         }
-        .bil:hover{
-                background-color: chocolate;
+        .bil{
+                background-color: darkslategray;
                 color: plum;
         }
 </style>
@@ -36,28 +35,31 @@
         <a class="back" href="index.html"> Назад на головну </a>
         <h3 class="h3">Мій типовий список покупок:</h3>
         <ul>
-                <li>Молочні продукти:</li>
-                
-                <li>Молоко</li>
-                <li>Сметана</li>
-                <li>Сир</li>
-                
+                <li>Молочні продукти:
+                        <ul class="bg">
+                        <li>Молоко</li>
+                        <li>Сметана</li>
+                        <li>Сир</li>
+                        </ul>
+                </li>
         </ul>
         <ul>
-                <li>Крупи:</li>
-                
-                <li>Вівсянка</li>
-                <li>Гречана каша</li>
-                <li>Рис</li>
-                
+                <li>Крупи:
+                        <ul class="bg">
+                        <li>Вівсянка</li>
+                        <li>Гречана каша</li>
+                        <li>Рис</li>
+                        </ul>
+                </li>   
         </ul>
         <ul>        
-                <li>Солодощі</li>
-                
-                <li>Цукерки</li>
-                <li>Печення</li>
-                <li>Випічка</li>
-                
+                <li>Солодощі
+                        <ul class="bg">
+                        <li>Цукерки</li>
+                        <li>Печення</li>
+                        <li>Випічка</li>
+                        </ul>
+                </li>
         </ul>
     <h3 class="decert"> Мій улюблений десерт</h3>
     <p><h4>Сирники</h4>
@@ -68,7 +70,7 @@
         
         <li>Сир змішуємо з цукром і яйцями</li>
         <li> Додаємо муку</li>
-        <li> Формуємо круглі сирники</li>
+        <li class="tyi"> Формуємо круглі сирники</li>
         
     </ol> 
     Процес приготування:
