@@ -25,7 +25,6 @@ h1 {
     margin-right: 2.5%;
     border: 2px solid black;
     background-color: darkseagreen;
-    
 }
 
 .col-2 {
@@ -45,7 +44,7 @@ h1 {
     background-color:darkseagreen;
 }
 
-.caption-title-1 {
+.capt1 {
     background-color: orange;
     color: #000;
     font-weight: 700;
@@ -57,9 +56,9 @@ h1 {
     float: right;
 }
 
-.caption-title-2 {
+.capt2 {
     background-color: palevioletred;
-    color: #fff;
+    color: black;
     font-weight: 700;
     height: 30px;
     width: 100px;
@@ -69,7 +68,7 @@ h1 {
     float: right;
 }
 
-.caption-title-3 {
+.capt3 {
     background-color: pink;
     color: #000;
     font-weight: 700;
